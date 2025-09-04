@@ -20,12 +20,8 @@ const About: React.FC = () => {
       icon: Lightbulb,
       title: "Innovation Continue",
       description: "Veille constante des dernières tendances et outils digitaux"
-    },
-    {
-      icon: Award,
-      title: "Résultats Mesurables",
-      description: "Suivi précis de vos KPI pour optimiser en permanence vos performances"
     }
+   
   ];
 
   return (
