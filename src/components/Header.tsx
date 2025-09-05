@@ -28,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ scrollY }) => {
                     scrollY > 50 ? 'text-primary' : 'text-white'
                   }`}
                onClick={() => scrollToSection('hero')}>
-                <img src="../../Logo_moderne_de_WEBARDOT-removebg-preview.png" alt="logo webardot" className={`w-[5rem] transition-all duration-300 
+                <img src="/Logo_moderne_de_WEBARDOT-removebg-preview.png" alt="logo webardot" className={`w-[5rem] transition-all duration-300 
     ${scrollY > 50 ? 'invert-0' : 'invert brightness-0'}`}/>
             {/* Webardot */}
           </div>
