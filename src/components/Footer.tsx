@@ -14,14 +14,11 @@ const Footer: React.FC = () => {
               Votre partenaire digital pour développer et fidéliser votre communauté en ligne.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-accent transition-colors duration-200">
+              <a href="https://www.instagram.com/webardot_/" target='_blank' className="text-gray-400 hover:text-accent transition-colors duration-200">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent transition-colors duration-200">
+              <a href="https://www.linkedin.com/in/romain-b-developer/" target='_blank' className="text-gray-400 hover:text-accent transition-colors duration-200">
                 <Linkedin size={24} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-accent transition-colors duration-200">
-                <Mail size={24} />
               </a>
             </div>
           </div>
@@ -45,8 +42,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-bold text-white">Contact</h4>
             <div className="space-y-2 text-gray-400">
-              <p>hello@webardot.fr</p>
-              <p>06 12 34 56 78</p>
+              <p>romain54.bernardot@gmail.com</p>
               <p>France - Intervention nationale</p>
             </div>
           </div>
